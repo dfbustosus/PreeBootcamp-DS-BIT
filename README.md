@@ -53,7 +53,7 @@ El contenido de este repositorio está estructurado en unidades, temas y subtema
     - Tipo de dato boolean (ejemplos, métodos y usos)
     - Casting y conversión de datos (`int()`, `str()`, `list()`, `set()`, `tuple()`)
     - Manejo de entrada y salida (`print` e `input`)
-    - Manejo de errores (`try-except`)
+    - Manejo de errores (`try-except`) 
 
 ## Contribuyendo
 Si deseas contribuir a este repositorio, por favor consulta las [directrices de contribución](CONTRIBUTING.md).
