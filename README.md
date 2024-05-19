@@ -55,8 +55,3 @@ El contenido de este repositorio está estructurado en unidades, temas y subtema
     - Manejo de entrada y salida (`print` e `input`)
     - Manejo de errores (`try-except`) 
 
-## Contribuyendo
-Si deseas contribuir a este repositorio, por favor consulta las [directrices de contribución](CONTRIBUTING.md).
-
-## Licencia
-Este proyecto está bajo la Licencia [nombre de la licencia]. Consulta el archivo [LICENSE](LICENSE) para más detalles.
