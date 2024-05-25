@@ -4,10 +4,13 @@ a=numpy.arange(4)
 print(a)
 ab= a>1
 print(ab)
+print('-------------')
 b=numpy.ones(4,dtype=bool)
 print(b)
-print(ab | b)
+print(ab & b)
+print(~b)
 
+"""
 a=numpy.arange(4)
 print(a)
 ab= a>1
@@ -17,3 +20,4 @@ print(b)
 print(ab & b)
 print(~ab)
 print(ab | b)
+"""

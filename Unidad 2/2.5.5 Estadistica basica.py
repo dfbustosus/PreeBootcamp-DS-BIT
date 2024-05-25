@@ -10,6 +10,7 @@ print(numpy.percentile(a,25))
 print(numpy.percentile(a,25,axis=0))
 print(numpy.percentile(a,25,axis=1))
 
+"""
 a=numpy.array([[5,6,1],[2,3,8]])
 print(a)
 print(numpy.amax(a))
@@ -33,3 +34,4 @@ print(numpy.nanmax(b,axis=1))
 print(numpy.ptp(b))
 print(numpy.ptp(b,axis=0))
 print(numpy.ptp(b,axis=1))
+"""

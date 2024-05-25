@@ -1,10 +1,13 @@
 import numpy
 
-a=numpy.arange(6).reshape((3,2))
+a=numpy.arange(6)
 print(a)
-print(a.flatten(order="C"))  # Pregunta?
-print(a.flatten(order="F"))  # Pregunta?
 
+b=a.reshape((3,2))
+print(b)
+#print(a.flatten(order="C"))  # Pregunta?
+#print(a.flatten(order="F"))  # Pregunta?
+print(b.flatten())
 
-a=numpy.arange(10).reshape((5,2))
-print(a)
+#a=numpy.arange(10).reshape((5,2))
+#print(a)
