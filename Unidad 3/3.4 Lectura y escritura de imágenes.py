@@ -3,10 +3,12 @@ from skimage import io
 import matplotlib.pyplot as plt
 photo = io.imread('dogormuffin.jpg')
 print(type(photo))
+print(photo.shape)
 
 print(photo[:,:,0])
 
-plt.imshow(photo[:,:,0],cmap='jet')
+#plt.imshow(photo[:,:,0],cmap='jet')
+plt.imshow(photo[:,:,0])
 plt.show()
 
 plt.imshow(photo)

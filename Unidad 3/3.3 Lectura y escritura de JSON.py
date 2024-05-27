@@ -6,8 +6,10 @@ url="https://raw.githubusercontent.com/LearnWebCode/json-example/master/animals-
 # Hacer el GET request a la URL
 response = requests.get(url)
 print(response)
+
 # Cargar data
 data = json.loads(response.text)
+print(data)
 print(json.dumps(data,indent=4))
 
 # Abrir
@@ -31,8 +33,11 @@ person = {
 print(type(person))
 print(json.dumps(person,indent=4))
 
-# Escritura
+with open("David_json_x.json", "w") as outfile:
+    json.dump(person, outfile,indent=4)
 
+# Escritura
+"""
 person = {
     "name": "David",
     "age": 24,
@@ -48,3 +53,4 @@ person = {
 
 with open("David_json.json", "w") as outfile:
     json.dump(person, outfile,indent=4)
+"""    

@@ -1,8 +1,10 @@
 import pandas as pd
+"""
 Test=pd.read_csv('Data_txt.txt',)
-print(Test.head())
+print(Test.head(10))
 print('------------------------------------------')
-ruta="C:/Users/david/Desktop/BIT/Bootcamp-DS-2024-I/Clase 5- 20 Marzo 2024/"
+"""
+ruta="./"
 tabla=pd.read_csv(ruta+'Data_Asignacion_X.csv',sep=',',encoding='utf-8')
 print(tabla)
 print('------------------------------------------')
@@ -18,14 +20,16 @@ print('------------------------------------------')
 filtro=tabla[(tabla['Nom_Territorio']=='CAQUETA') & (tabla['Cantidad']>300)]
 print(filtro.head())
 print('------------------------------------------')
+
 filtro=tabla.query("Nom_Territorio == 'CAQUETA'").query("Cantidad > 300").head()
 print(filtro.head())
 print('------------------------------------------')
+
 filtro=tabla.loc[(tabla['Nom_Territorio']== 'CAQUETA') & (tabla['Cantidad']>300), :].head()
 print(filtro.head())
 print('------------------------------------------')
 print(filtro.describe())
 print('------------------------------------------')
-#filtro.to_csv('Data_filtrada_24-05-2024.csv',sep=',',index=False)
-#filtro.to_parquet('Data_filtrada_24-05-2024.parquet')
+filtro.to_csv('Data_filtrada_24-05-2024.csv',sep=',',index=False)
+filtro.to_parquet('Data_filtrada_24-05-2024.parquet')
 print('------------------------------------------')

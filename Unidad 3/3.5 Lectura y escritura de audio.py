@@ -3,6 +3,7 @@
 import pygame
 import keyboard
 # inicializar el mixer de Pygame
+"""
 pygame.mixer.init()
 
 # Cargar el  MP3
@@ -17,7 +18,7 @@ while pygame.mixer.music.get_busy():
 
 # Limpiar el objecto Pygame mixer
 pygame.mixer.quit()
-
+"""
 print('------------------------------------')
 # Aqui cuando presiones q no se escuchara nada
 pygame.init()

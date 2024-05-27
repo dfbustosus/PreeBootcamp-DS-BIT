@@ -14,10 +14,7 @@ f.close()
 
 texto= "Hola soy David !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! \nCOL vs TYU"
 
-f=open('David_X.txt','w')
+f=open('David_Y.txt','w')
 #f.write(d['NOMBRE']+','+d['APELLIDO']+','+str(d['DNI']))
 f.write(texto)
 f.close()
-
-with open('David_T.txt', 'w',encoding='utf-8') as file:
-    file.write(texto)
