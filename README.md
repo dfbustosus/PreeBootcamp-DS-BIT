@@ -1,10 +1,10 @@
 # Prebootcamp-DS-BIT
 
 ## Descripción
-Este repositorio contiene materiales relacionados con un prebootcamp en Ciencia de Datos organizado por [nombre de tu institución/organización].
+Este repositorio contiene materiales relacionados con el prebootcamp en Ciencia de Datos organizado por BIT.
 
 ## Contenido
-El contenido de este repositorio está estructurado en unidades, temas y subtemas, con sus respectivas duraciones en minutos.
+El contenido de este repositorio está estructurado en las siguientes unidades, temas y subtemas.
 
 ### Unidad 1: Intro a Git y GitHub
 - **Tema 1: Qué es el control de versiones**
